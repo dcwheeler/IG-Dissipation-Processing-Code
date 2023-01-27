@@ -70,7 +70,7 @@ def nan_helper(y):
         >>> nans, x= nan_helper(y)
         >>> y[nans]= np.interp(x(nans), x(~nans), y[~nans])
     """
-    #I got this from an internet forum, but lost the link :(
+    #I got this from an internet forum, but lost the link
 
     return np.isnan(y), lambda z: z.nonzero()[0]
     
@@ -81,7 +81,7 @@ def nan_interp(y):
     Ooutput:
         - ynew, a 1d numpy with NaNs replaced by interpolated values
     """
-    #I got this from an internet forum, but lost the link :(
+    #I got this from an internet forum, but lost the link
 
     y2 = np.array(y)
     nans, x = nan_helper(y2)

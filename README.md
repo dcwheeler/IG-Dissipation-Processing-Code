@@ -1,7 +1,7 @@
 # IG-Dissipation-Processing-Code
 Please cite as:
 
-Wheeler, D. C., S. N. Gidings, and J. McCullough, 2022: Data and Code from Measuring Turbulent Dissipation with Acoustic Doppler Velocimeters in the Presence of Large, Intermittent, Infragravity Frequency Bores. UC San Diego Library Digital Collections, https://doi.org/https://doi.org/10.6075/J0J67H27
+Wheeler, D. C., S. N. Gidings, and J. McCullough, 2022: Data and Code from Measuring Turbulent Dissipation with Acoustic Doppler Velocimeters in the Presence of Large, Intermittent, Infragravity Frequency Bores. UC San Diego Library Digital Collections, https://doi.org/10.6075/J0J67H27
 
 
 
@@ -13,19 +13,15 @@ Duncan Wheeler, dcwheele@ucsd.edu
 
 Primary Associated Publication:
 
-Wheeler, Duncan C. & Giddings, Sarah N. (2022). Measuring Turbulent Dissipation with Accoustic Doppler Velocimeters in the Presence of Large, Intermittent, Infragravity Frequency Bores, Journal of Physical Oceanography.
+Wheeler, Duncan C. & Giddings, Sarah N. (2022). Measuring Turbulent Dissipation with Accoustic Doppler Velocimeters in the Presence of Large, Intermittent, Infragravity Frequency Bores, Journal of Atmospheric and Oceanic Technology. https://doi.org/10.1175/JTECH-D-21-0144.1
 
 
 
 Description of Contents:
 
-code_2022 contains all code files explained below.
+code contains all code files explained below.
 
-data_2022 contains the raw data files and processed data files produced by the running the code as explained below.
-
-plots_2022 contains the plots used in the publications listed above. They are created by running the code as explained below.
-
-toleranceTests_2022 contains the data produced when running the tolerance test codes as explained below.
+data and plots can be found at https://doi.org/10.6075/J0J67H27
 
 Functions.py is a library of functions called by other scripts.
 
